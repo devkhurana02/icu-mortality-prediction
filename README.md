@@ -94,8 +94,8 @@ The trade-off is deliberate: precision is low because the model raises many fals
 **Requirements:** Python 3.10+ (developed on 3.13)
 
 ```bash
-git clone https://github.com/<your-username>/<repo-name>.git
-cd <repo-name>
+git clone https://github.com/devkhurana02/icu-mortality-prediction.git
+cd icu-mortality-prediction
 
 python3 -m venv .venv
 source .venv/bin/activate        # Windows: .venv\Scripts\activate
