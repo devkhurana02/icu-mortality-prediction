@@ -1,0 +1,30 @@
+# --- Raw patient data (download from PhysioNet; see README) ---
+icumortal/
+icumortal.zip
+*.zip
+set-a/
+set-b/
+set-c/
+Outcomes-*.txt
+
+# --- Secrets / credentials ---
+.env
+.env.*
+*.pem
+*.key
+*credentials*
+*secret*
+*.token
+
+# --- Python ---
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# --- OS / editor ---
+.DS_Store
+.vscode/
+.idea/
